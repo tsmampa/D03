@@ -6,7 +6,7 @@
 /*   By: tsmampa <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 15:13:01 by tsmampa           #+#    #+#             */
-/*   Updated: 2020/07/10 15:15:38 by tsmampa          ###   ########.fr       */
+/*   Updated: 2020/07/12 11:24:44 by tsmampa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ void ft_ft(int *nbr)
 
 int main(void)
 {
-  int c;
+  int k;
+  int ptr;
+ k = 42;
+ ptr = k;
 
-  c = 0;
-  
-  ft_ft(&c);
-  printf("%d\n", c);
+  printf("%d\n", k);
   return(0);
 }
