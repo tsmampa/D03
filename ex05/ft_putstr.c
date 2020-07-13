@@ -6,8 +6,19 @@
 /*   By: tsmampa <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 15:23:52 by tsmampa           #+#    #+#             */
-/*   Updated: 2020/07/10 15:23:56 by tsmampa          ###   ########.fr       */
+/*   Updated: 2020/07/13 11:56:24 by tsmampa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio>
 
+int ft_putchar(char c);
+
+void ft_putstr(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i])
+			ft_putchar(str[i++]);
+}
