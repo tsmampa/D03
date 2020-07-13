@@ -6,8 +6,20 @@
 /*   By: tsmampa <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 15:21:50 by tsmampa           #+#    #+#             */
-/*   Updated: 2020/07/10 15:21:53 by tsmampa          ###   ########.fr       */
+/*   Updated: 2020/07/13 10:03:46 by tsmampa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+void ft_ultimate_div_mod(int *a, int *b);
+{
+	int div;
+	int mod;
+
+	div = *a / *b;
+	mod = *a % *b;
+
+	*a = div;
+	*b = mod;
+}
 
 
