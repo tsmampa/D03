@@ -17,13 +17,3 @@ void ft_ft(int *nbr)
   *nbr = 42;
 }
 
-int main(void)
-{
-  int k;
-  int ptr;
- k = 42;
- ptr = k;
-
-  printf("%d\n", k);
-  return(0);
-}
