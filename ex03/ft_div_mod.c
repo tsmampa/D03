@@ -18,17 +18,3 @@ void ft_div_mod(int a, int b, int *div, int *mod);
 	*mod = a % b;
 }
 
-int main()
-{
-	int a;
-	int b;
-	int c;
-	int d;
-
-	a = 9;
-	b = 2;
-
-	ft_div_mod(
-		printf("a=%d\n,b=%d", c,d)
-		return 0;
-}
