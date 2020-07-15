@@ -20,20 +20,3 @@ void  ft_swap(int *a, int *b)
   *a = *b;
   *b = swap;
 }
-
-int main()
-{
-  int n = 5;
-  int i = 10;
- 
-
-  int *nptr = &n;
-  int *iptr = &i;
-
-  ft_swap(nptr, iptr);
-
-  printf("%d\n", n);
-  printf("%d\n", i);
-
-  return 0;
-}
